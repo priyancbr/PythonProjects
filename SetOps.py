@@ -1,0 +1,12 @@
+MySet = set()
+print(MySet)
+MySet.add(1)
+print(MySet)
+testList = [1,2,3,4,5,1,2,3,1,2,1]
+print('Test List is {}'.format(testList))
+TestSet = set(testList)
+print('Test set is {}'.format(TestSet))
+exe = set('AAAADDDDDAAAAMMMMM')
+print(exe)
+print(1>2)
+print(2==2)
