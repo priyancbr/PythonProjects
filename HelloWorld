@@ -1,0 +1,3 @@
+print('Hello World Now')
+print(17%3)
+print(type(17))

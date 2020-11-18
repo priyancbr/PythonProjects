@@ -1,0 +1,10 @@
+MyString = 'abcdefghij'
+print(MyString)
+print(MyString[-1])
+print(f"Last letter is {MyString[-1]}")
+print("Printing below using the other format method")
+print("Last letter is {}".format(MyString[-1]))
+print("First three characters {}".format(MyString[:3]))
+print("Four characters from 'b' are {}".format(MyString[1:5]))
+print("Characters until 'h' are {}".format(MyString[:8]))
+print("Characters between b and e including b and e are {}".format(MyString[1:5]))
